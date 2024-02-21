@@ -1,0 +1,69 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+/*
+background-color: rgba(99, 12, 110, 1);
+background-color: rgba(127, 228, 235, 1);
+
+Contrast Ratio
+7.85:1
+https://webaim.org/resources/contrastchecker/
+*/
+
+body {
+    width: 80rem;
+    margin: 0 auto;
+}
+
+#freeShipping {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 360px;
+    
+}
+
+#logoMain {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+/*#nameMain {
+    position: relative;
+    right: 15rem;
+    display: inline-block;
+}*/
+nav {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+nav a {
+    border: 0.1rem solid black;
+    border-radius: 0.8rem;
+    padding: 0.3rem;
+    
+}
+
+main p {
+    color: rgba(106, 66, 141, 1);
+}
+
